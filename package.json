@@ -1,6 +1,6 @@
 {
   "name": "javascript-obfuscator-metro-plugin",
-  "version": "5.5.10",
+  "version": "1.0.0",
   "description": "A plugin to use metro with javascriptobfuscator.com",
   "main": "lib/index.js",
   "dependencies": {
