@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "A plugin to use metro with javascriptobfuscator.com",
   "main": "lib/index.js",
+  "homepage": "https://github.com/calebmcelroy/javascript-obfuscator-metro-plugin#readme",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/calebmcelroy/javascript-obfuscator-metro-plugin.git"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "commander": "^2.20.0",
