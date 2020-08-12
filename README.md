@@ -21,9 +21,7 @@ const jsoMetroPlugin = require('javascript-obfuscator-metro-plugin')(
     ReorderCode: true, /* optional */
     MoveMembers: true, /* optional */
     RenameMembers: true, /* optional */
-    SelfCompression: true, /* optional */
     OptimizationMode: 'Auto', /* optional */
-    CompressionRatio: 'Auto', /* optional */
   },
   {
     runInDev: false, /* optional */
