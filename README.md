@@ -1,30 +1,46 @@
 # Javascript Obfuscator Metro Plugin
 
-This metro plugin protects your **React Native** bundle using Jscrambler.
+This metro plugin protects your **React Native** bundle using javascriptobfuscator.com.
 
 # Usage
 
-Include the plugin in your `metro.config.js` and add the following code:
+Include the plugin in your `metro.config.js`:
 
 ```js
-const jscramblerMetroPlugin = require('jscrambler-metro-plugin')(
-  /* optional */
+const jsoMetroPlugin = require('javascript-obfuscator-metro-plugin')(
   {
-    params: [
-      {
-        name: 'selfDefending',
-        options: {
-          threshold: 1
-        }
-      }
-    ]
+    APIKey: undefined, /* required */ 
+    APIPwd: undefined, /* required */ 
+    Name: 'My Project', /* optional */ 
+    KeepComment: false, /* optional */
+    EncodeStrings: false, /* optional */
+    MoveStrings: true, /* optional */
+    ReplaceNames: true, /* optional */
+    RenameGlobals: true, /* optional */
+    DeepObfuscate: true, /* optional */
+    ReorderCode: true, /* optional */
+    MoveMembers: true, /* optional */
+    RenameMembers: true, /* optional */
+    SelfCompression: true, /* optional */
+    OptimizationMode: 'Auto', /* optional */
+    CompressionRatio: 'Auto', /* optional */
+  },
+  {
+    runInDev: false, /* optional */
   }
 );
 
-module.exports = jscramblerMetroPlugin;
+module.exports = {
+  transformer: {
+    getTransformOptions: async () => ({
+      transform: {
+        experimentalImportSupport: false,
+        inlineRequires: false,
+      },
+    }),
+  },
+  ...jsoMetroPlugin
+};
 ```
 
-You can pass your Jscrambler configuration using the plugin parameter or using
-the usual `.jscramblerrc` file.
-
-By default, Jscrambler protection is **ignored** when bundle mode is set for **Development**. You can override this behaviour by setting env variable `JSCRAMBLER_METRO_DEV=true` 
+For configuration docs see: https://service.javascriptobfuscator.com/httpapi.asmx?op=JSOExecute and https://javascriptobfuscator.com/docs/

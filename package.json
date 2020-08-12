@@ -1,22 +1,20 @@
 {
-  "name": "jscrambler-metro-plugin",
+  "name": "javascript-obfuscator-metro-plugin",
   "version": "5.5.10",
-  "description": "A plugin to use metro with Jscrambler",
+  "description": "A plugin to use metro with javascriptobfuscator.com",
   "main": "lib/index.js",
-  "peerDependencies": {
-    "metro-source-map": "0.x"
-  },
   "dependencies": {
+    "axios": "^0.19.2",
     "commander": "^2.20.0",
     "fs-extra": "^8.0.1",
-    "javascript-obfuscator": "^1.9.0",
-    "jscrambler": "^5.5.10"
+    "glob": "^7.1.6",
+    "javascript-obfuscator": "^1.9.0"
   },
   "keywords": [
-    "jscrambler",
+    "obfuscation",
     "javascript",
     "metro"
   ],
-  "author": "Jscrambler <support@jscrambler.com>",
+  "author": "Caleb McElroy <caleb@tangentmedia.com>",
   "license": "MIT"
 }
