@@ -1,6 +1,6 @@
 {
   "name": "javascript-obfuscator-metro-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin to use metro with javascriptobfuscator.com",
   "main": "lib/index.js",
   "homepage": "https://github.com/calebmcelroy/javascript-obfuscator-metro-plugin#readme",
@@ -12,8 +12,7 @@
     "axios": "^0.19.2",
     "commander": "^2.20.0",
     "fs-extra": "^8.0.1",
-    "glob": "^7.1.6",
-    "javascript-obfuscator": "^1.9.0"
+    "glob": "^7.1.6"
   },
   "keywords": [
     "obfuscation",
