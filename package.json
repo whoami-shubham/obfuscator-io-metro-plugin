@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "homepage": "https://github.com/calebmcelroy/javascript-obfuscator-metro-plugin#readme",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/calebmcelroy/javascript-obfuscator-metro-plugin.git"
+    "type": "git",
+    "url": "https://github.com/calebmcelroy/javascript-obfuscator-metro-plugin.git"
   },
   "dependencies": {
     "axios": "^0.19.2",
