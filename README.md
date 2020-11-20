@@ -29,7 +29,7 @@ const jsoMetroPlugin = require("javascript-obfuscator-metro-plugin")(
   },
   {
     runInDev: false /* optional */,
-    logObfuscatedFiles: true /* optional */, // to log obfuscated files seperately , it is located at ./.jso
+    logObfuscatedFiles: true /* optional */, // to log obfuscated files seperately , generated files will be located at ./.jso
   }
 );
 
