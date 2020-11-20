@@ -2,7 +2,14 @@
 
 This metro plugin obfuscate your **React Native** bundle using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
 
-# Usage
+## Installation
+
+```bash
+ npm i obfuscator-io-metro-plugin
+
+```
+
+## Usage
 
 Include the plugin in your `metro.config.js`:
 
