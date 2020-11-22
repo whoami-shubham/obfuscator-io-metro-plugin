@@ -1,6 +1,8 @@
 # Obfuscator.io Metro Plugin
 
-This metro plugin obfuscate your **React Native** bundle using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
+This metro plugin obfuscate your **React Native** bundle using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) <br/>
+It only obfuscates your code not the code of `node_modules`, you can verify the obfuscated bundle by either extracting the `index.android.bundle` from generated apk
+or you can find the file at `project_root\android\app\build\generated\assets\react\release` after `assembleRelease` process
 
 ## Installation
 
