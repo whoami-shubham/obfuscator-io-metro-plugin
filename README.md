@@ -14,7 +14,7 @@ This metro plugin obfuscate your **React Native** bundle using [javascript-obfus
 Include the plugin in your `metro.config.js`:
 
 ```js
-const jsoMetroPlugin = require("javascript-obfuscator-metro-plugin")(
+const jsoMetroPlugin = require("obfuscator-io-metro-plugin")(
   {
     // for these option look javascript-obfuscator library options from  above url
     compact: false,
@@ -29,7 +29,9 @@ const jsoMetroPlugin = require("javascript-obfuscator-metro-plugin")(
   },
   {
     runInDev: false /* optional */,
-    logObfuscatedFiles: true /* optional */, // to log obfuscated files seperately , generated files will be located at ./.jso
+    logObfuscatedFiles: true /* optional generated files will be located at ./.jso */,
+    sourceMapLocation:
+      "./index.android.bundle.map" /* optional  only works if sourceMap: true in obfuscation option */,
   }
 );
 
