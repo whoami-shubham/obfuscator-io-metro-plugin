@@ -1,7 +1,9 @@
 # Obfuscator.io Metro Plugin
 
 [![npm version](https://img.shields.io/npm/v/obfuscator-io-metro-plugin.svg)](https://www.npmjs.com/package/obfuscator-io-metro-plugin)
-[![npm](https://img.shields.io/npm/dm/obfuscator-io-metro-plugin)](https://www.npmjs.com/package/obfuscator-io-metro-plugin)
+[![npm](https://img.shields.io/npm/dt/obfuscator-io-metro-plugin)](https://www.npmjs.com/package/obfuscator-io-metro-plugin)
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+
 
 This metro plugin obfuscate your **React Native** bundle using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) <br/>
 It only obfuscates your code not the code of `node_modules`, you can verify the obfuscated bundle by either extracting the `index.android.bundle` from generated apk
