@@ -4,7 +4,6 @@
 [![npm](https://img.shields.io/npm/dt/obfuscator-io-metro-plugin)](https://www.npmjs.com/package/obfuscator-io-metro-plugin)
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
 
-
 This metro plugin obfuscate your **React Native** bundle using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) <br/>
 It only obfuscates your code not the code of `node_modules`, you can verify the obfuscated bundle by either extracting the `index.android.bundle` from generated apk
 or you can find the file at `project_root\android\app\build\generated\assets\react\release` after `assembleRelease` process
@@ -39,9 +38,7 @@ const jsoMetroPlugin = require("obfuscator-io-metro-plugin")(
   {
     runInDev: false /* optional */,
     logObfuscatedFiles: true /* optional generated files will be located at ./.jso */,
-    // source Map generated after obfuscation is not useful right now
-    sourceMapLocation:
-      "./index.android.bundle.map" /* optional  only works if sourceMap: true in obfuscation option */,
+    exts: "/.(j|t)s(x)?$/" /* optional to add json use '(.(j|t)s(x)?$|.json$)' */,
   }
 );
 
@@ -56,6 +53,17 @@ module.exports = {
   },
   ...jsoMetroPlugin,
 };
+```
+
+### runConfig
+
+```
+
+ name              | description                                   | type     | default
+:----------------- |:--------------------------------------------- | --------:|:------------------
+ exts              | extension of files to obfuscate               | String   | '/.(j|t)s(x)?$/'
+
+
 ```
 
 For obfuscation options configuration docs see: [https://github.com/javascript-obfuscator/javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
