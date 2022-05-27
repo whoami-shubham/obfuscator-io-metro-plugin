@@ -38,7 +38,7 @@ const jsoMetroPlugin = require("obfuscator-io-metro-plugin")(
   {
     runInDev: false /* optional */,
     logObfuscatedFiles: true /* optional generated files will be located at ./.jso */,
-    exts: "(.(j|t)s(x)?$|.json$)" /* optional */,
+    exts: "/.(j|t)s(x)?$/" /* optional to add json use '(.(j|t)s(x)?$|.json$)' */,
   }
 );
 
@@ -53,6 +53,17 @@ module.exports = {
   },
   ...jsoMetroPlugin,
 };
+```
+
+### runConfig
+
+```
+
+ name              | description                                   | type     | default
+:----------------- |:--------------------------------------------- | --------:|:------------------
+ exts              | extension of files to obfuscate               | String   | '/.(j|t)s(x)?$/'
+
+
 ```
 
 For obfuscation options configuration docs see: [https://github.com/javascript-obfuscator/javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
