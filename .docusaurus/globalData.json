@@ -1,18 +1,18 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/obfuscator-io-metro-plugin/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/obfuscator-io-metro-plugin/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/obfuscator-io-metro-plugin/docs/intro",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -20,7 +20,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/obfuscator-io-metro-plugin/docs/intro",
                 "label": "intro"
               }
             }

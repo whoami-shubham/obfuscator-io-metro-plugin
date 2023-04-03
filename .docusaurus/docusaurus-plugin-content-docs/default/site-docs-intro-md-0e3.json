@@ -6,7 +6,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/obfuscator-io-metro-plugin/docs/intro",
   "draft": false,
   "editUrl": "https://github.com/whoami-shubham/obfuscator-io-metro-plugin/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
   "tags": [],

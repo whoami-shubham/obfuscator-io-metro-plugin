@@ -8,7 +8,7 @@ export default {
   "tagline": "",
   "favicon": "img/favicon.ico",
   "url": "https://whoami-shubham.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/obfuscator-io-metro-plugin/",
   "organizationName": "whoami-shubham",
   "projectName": "obfuscator-io-metro-plugin",
   "onBrokenLinks": "warn",

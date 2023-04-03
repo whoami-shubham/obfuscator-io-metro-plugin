@@ -73,9 +73,9 @@
     "53": {
       "js": [
         {
-          "file": "assets/js/935f2afb.dd851d23.js",
-          "hash": "282f4f3d9ca5eecc",
-          "publicPath": "/assets/js/935f2afb.dd851d23.js"
+          "file": "assets/js/935f2afb.918ce3ff.js",
+          "hash": "1209fd78bb8aa83e",
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/935f2afb.918ce3ff.js"
         }
       ]
     },
@@ -84,7 +84,7 @@
         {
           "file": "assets/js/f8ba4ff1.5648c224.js",
           "hash": "1595718f5502fb88",
-          "publicPath": "/assets/js/f8ba4ff1.5648c224.js"
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/f8ba4ff1.5648c224.js"
         }
       ]
     },
@@ -93,16 +93,16 @@
         {
           "file": "assets/js/1f391b9e.da616b60.js",
           "hash": "d6d1d069f7ae9337",
-          "publicPath": "/assets/js/1f391b9e.da616b60.js"
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/1f391b9e.da616b60.js"
         }
       ]
     },
     "179": {
       "js": [
         {
-          "file": "assets/js/main.bda33484.js",
-          "hash": "133b6420d43c813d",
-          "publicPath": "/assets/js/main.bda33484.js"
+          "file": "assets/js/main.54dc116f.js",
+          "hash": "784408561ad3cf7a",
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/main.54dc116f.js"
         }
       ]
     },
@@ -111,16 +111,16 @@
         {
           "file": "assets/js/c4f5d8e4.057d00f4.js",
           "hash": "a4fa4c3ed45df3a1",
-          "publicPath": "/assets/js/c4f5d8e4.057d00f4.js"
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/c4f5d8e4.057d00f4.js"
         }
       ]
     },
     "303": {
       "js": [
         {
-          "file": "assets/js/runtime~main.f1039b14.js",
-          "hash": "03b4f26ad3ae73b2",
-          "publicPath": "/assets/js/runtime~main.f1039b14.js"
+          "file": "assets/js/runtime~main.451314b5.js",
+          "hash": "45a29d05dc534b51",
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/runtime~main.451314b5.js"
         }
       ]
     },
@@ -129,16 +129,16 @@
         {
           "file": "assets/js/7149e0fb.247e821f.js",
           "hash": "231cd2262f8330d7",
-          "publicPath": "/assets/js/7149e0fb.247e821f.js"
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/7149e0fb.247e821f.js"
         }
       ]
     },
     "414": {
       "js": [
         {
-          "file": "assets/js/393be207.f99a3db0.js",
-          "hash": "f818a41cf0a8c006",
-          "publicPath": "/assets/js/393be207.f99a3db0.js"
+          "file": "assets/js/393be207.24472ba9.js",
+          "hash": "3ae2eb6766974b0d",
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/393be207.24472ba9.js"
         }
       ]
     },
@@ -147,7 +147,7 @@
         {
           "file": "assets/js/1be78505.0d284b98.js",
           "hash": "cd73f2ca3286c95b",
-          "publicPath": "/assets/js/1be78505.0d284b98.js"
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/1be78505.0d284b98.js"
         }
       ]
     },
@@ -156,7 +156,7 @@
         {
           "file": "assets/css/styles.bae820eb.css",
           "hash": "20e83930e1441566",
-          "publicPath": "/assets/css/styles.bae820eb.css"
+          "publicPath": "/obfuscator-io-metro-plugin/assets/css/styles.bae820eb.css"
         }
       ]
     },
@@ -165,16 +165,16 @@
         {
           "file": "assets/js/common.67b7397e.js",
           "hash": "8d317edfee7445b7",
-          "publicPath": "/assets/js/common.67b7397e.js"
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/common.67b7397e.js"
         }
       ]
     },
     "671": {
       "js": [
         {
-          "file": "assets/js/0e384e19.29ca8657.js",
-          "hash": "6a8514a03f49a261",
-          "publicPath": "/assets/js/0e384e19.29ca8657.js"
+          "file": "assets/js/0e384e19.d6db009a.js",
+          "hash": "4f520e1d35772f0b",
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/0e384e19.d6db009a.js"
         }
       ]
     },
@@ -183,7 +183,7 @@
         {
           "file": "assets/js/17896441.3e240158.js",
           "hash": "a164df6cd86805c5",
-          "publicPath": "/assets/js/17896441.3e240158.js"
+          "publicPath": "/obfuscator-io-metro-plugin/assets/js/17896441.3e240158.js"
         }
       ]
     }

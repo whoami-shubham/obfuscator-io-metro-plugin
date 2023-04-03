@@ -3,25 +3,25 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'da8'),
+    path: '/obfuscator-io-metro-plugin/markdown-page',
+    component: ComponentCreator('/obfuscator-io-metro-plugin/markdown-page', 'f8e'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '703'),
+    path: '/obfuscator-io-metro-plugin/docs',
+    component: ComponentCreator('/obfuscator-io-metro-plugin/docs', '723'),
     routes: [
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
+        path: '/obfuscator-io-metro-plugin/docs/intro',
+        component: ComponentCreator('/obfuscator-io-metro-plugin/docs/intro', 'f4a'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'f43'),
+    path: '/obfuscator-io-metro-plugin/',
+    component: ComponentCreator('/obfuscator-io-metro-plugin/', '4da'),
     exact: true
   },
   {
