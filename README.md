@@ -43,8 +43,6 @@ const jsoMetroPlugin = require("obfuscator-io-metro-plugin")(
     runInDev: false /* optional */,
     logObfuscatedFiles: true /* optional generated files will be located at ./.jso */,
     // source Map generated after obfuscation is not useful right now
-    sourceMapLocation:
-      "./index.android.bundle.map" /* optional  only works if sourceMap: true in obfuscation option */,
   }
 );
 
