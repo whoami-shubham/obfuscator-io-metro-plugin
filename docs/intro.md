@@ -22,7 +22,7 @@ Include the plugin in your `metro.config.js`:
 const jsoMetroPlugin = require("obfuscator-io-metro-plugin")(
   {
     compact: false,
-    sourceMap: false,
+    sourceMap: false, // source Map generated after obfuscation is not useful right now so use default value i.e. false
     controlFlowFlattening: true,
     controlFlowFlatteningThreshold: 1,
     numbersToExpressions: true,
