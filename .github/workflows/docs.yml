@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          path: feat/docs
+          ref: feat/docs
 
       - name: Install dependencies
         run: npm install
