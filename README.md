@@ -18,6 +18,9 @@ or you can find the file at `project_root\android\app\build\generated\assets\rea
 
 ```
 
+## Docs
+[Docs](https://whoami-shubham.github.io/obfuscator-io-metro-plugin/)
+
 ## Usage
 
 Include the plugin in your `metro.config.js`:
