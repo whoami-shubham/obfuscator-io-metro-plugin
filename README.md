@@ -14,7 +14,7 @@ or you can find the file at `project_root\android\app\build\generated\assets\rea
 ## Installation
 
 ```bash
- npm i obfuscator-io-metro-plugin
+ npm i -D obfuscator-io-metro-plugin
 
 ```
 
