@@ -88,32 +88,28 @@ const config = {
             title: 'Learn',
             items: [
               {
-                label: 'Style Guide',
+                label: 'Into Guide',
                 to: 'docs/intro',
-              },
-              {
-                label: 'Second Doc',
-                to: 'docs/intro',
-              },
+              }
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //   ],
+          // },
           {
             title: 'More',
             items: [
@@ -126,29 +122,7 @@ const config = {
                 href: 'https://github.com/whoami-shubham/obfuscator-io-metro-plugin',
               },
             ],
-          },
-          {
-            title: 'Legal',
-            // Please do not remove the privacy and terms, it's a legal requirement.
-            items: [
-              {
-                label: 'Privacy',
-                href: 'https://opensource.fb.com/legal/privacy/',
-              },
-              {
-                label: 'Terms',
-                href: 'https://opensource.fb.com/legal/terms/',
-              },
-              {
-                label: 'Data Policy',
-                href: 'https://opensource.fb.com/legal/data-policy/',
-              },
-              {
-                label: 'Cookie Policy',
-                href: 'https://opensource.fb.com/legal/cookie-policy/',
-              },
-            ],
-          },
+          }
         ],
         logo: {
           alt: 'Meta Open Source Logo',

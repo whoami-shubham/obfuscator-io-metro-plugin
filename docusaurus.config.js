@@ -88,77 +88,73 @@ const config = {
             title: 'Learn',
             items: [
               {
-                label: 'Style Guide',
+                label: 'Intro Guide',
                 to: 'docs/intro',
-              },
-              {
-                label: 'Second Doc',
-                to: 'docs/intro',
-              },
+              }
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //   ],
+          // },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: 'blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: 'blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/whoami-shubham/obfuscator-io-metro-plugin',
               },
             ],
           },
-          {
-            title: 'Legal',
-            // Please do not remove the privacy and terms, it's a legal requirement.
-            items: [
-              {
-                label: 'Privacy',
-                href: 'https://opensource.fb.com/legal/privacy/',
-              },
-              {
-                label: 'Terms',
-                href: 'https://opensource.fb.com/legal/terms/',
-              },
-              {
-                label: 'Data Policy',
-                href: 'https://opensource.fb.com/legal/data-policy/',
-              },
-              {
-                label: 'Cookie Policy',
-                href: 'https://opensource.fb.com/legal/cookie-policy/',
-              },
-            ],
-          },
+          // {
+          //   title: 'Legal',
+          //   // Please do not remove the privacy and terms, it's a legal requirement.
+          //   items: [
+          //     {
+          //       label: 'Privacy',
+          //       href: 'https://opensource.fb.com/legal/privacy/',
+          //     },
+          //     {
+          //       label: 'Terms',
+          //       href: 'https://opensource.fb.com/legal/terms/',
+          //     },
+          //     {
+          //       label: 'Data Policy',
+          //       href: 'https://opensource.fb.com/legal/data-policy/',
+          //     },
+          //     {
+          //       label: 'Cookie Policy',
+          //       href: 'https://opensource.fb.com/legal/cookie-policy/',
+          //     },
+          //   ],
+          // },
         ],
-        logo: {
-          alt: 'Meta Open Source Logo',
-          // This default includes a positive & negative version, allowing for
-          // appropriate use depending on your site's style.
-          src: '/img/meta_opensource_logo_negative.svg',
-          href: 'https://opensource.fb.com',
-        },
+        // logo: {
+        //   alt: 'Meta Open Source Logo',
+        //   // This default includes a positive & negative version, allowing for
+        //   // appropriate use depending on your site's style.
+        //   src: '/img/meta_opensource_logo_negative.svg',
+        //   href: 'https://opensource.fb.com',
+        // },
         // Please do not remove the credits, help to publicize Docusaurus :)
-        copyright: `Copyright © ${new Date().getFullYear()} Meta Platforms, Inc. Built with Docusaurus.`,
+        copyright: `Built with Docusaurus.`,
       },
     }),
 };

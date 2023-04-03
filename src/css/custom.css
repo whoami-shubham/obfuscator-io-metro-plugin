@@ -35,3 +35,9 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
 }
+
+.footer__copyright{
+  font-size: small;
+  margin-top: 20px;
+  color: #1a8870;
+}

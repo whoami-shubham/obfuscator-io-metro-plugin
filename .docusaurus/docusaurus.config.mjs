@@ -61,29 +61,8 @@ export default {
           "title": "Learn",
           "items": [
             {
-              "label": "Style Guide",
+              "label": "Intro Guide",
               "to": "docs/intro"
-            },
-            {
-              "label": "Second Doc",
-              "to": "docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
             }
           ]
         },
@@ -91,43 +70,13 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "blog"
-            },
-            {
               "label": "GitHub",
               "href": "https://github.com/whoami-shubham/obfuscator-io-metro-plugin"
             }
           ]
-        },
-        {
-          "title": "Legal",
-          "items": [
-            {
-              "label": "Privacy",
-              "href": "https://opensource.fb.com/legal/privacy/"
-            },
-            {
-              "label": "Terms",
-              "href": "https://opensource.fb.com/legal/terms/"
-            },
-            {
-              "label": "Data Policy",
-              "href": "https://opensource.fb.com/legal/data-policy/"
-            },
-            {
-              "label": "Cookie Policy",
-              "href": "https://opensource.fb.com/legal/cookie-policy/"
-            }
-          ]
         }
       ],
-      "logo": {
-        "alt": "Meta Open Source Logo",
-        "src": "/img/meta_opensource_logo_negative.svg",
-        "href": "https://opensource.fb.com"
-      },
-      "copyright": "Copyright © 2023 Meta Platforms, Inc. Built with Docusaurus."
+      "copyright": "Built with Docusaurus."
     },
     "colorMode": {
       "defaultMode": "light",

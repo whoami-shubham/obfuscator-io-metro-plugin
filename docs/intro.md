@@ -19,9 +19,8 @@ Get started by **installing npm package**.
 Include the plugin in your `metro.config.js`:
 
 ```js
-const jsoMetroPlugin = require('obfuscator-io-metro-plugin')(
+const jsoMetroPlugin = require("obfuscator-io-metro-plugin")(
   {
-    // for these option look javascript-obfuscator library options from  above url
     compact: false,
     sourceMap: false,
     controlFlowFlattening: true,
@@ -36,7 +35,7 @@ const jsoMetroPlugin = require('obfuscator-io-metro-plugin')(
     runInDev: false /* optional */,
     logObfuscatedFiles: true /* optional generated files will be located at ./.jso */,
     // source Map generated after obfuscation is not useful right now
-  },
+  }
 );
 
 module.exports = {

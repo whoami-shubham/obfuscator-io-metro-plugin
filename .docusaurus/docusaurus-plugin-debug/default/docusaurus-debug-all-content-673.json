@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/docs",
-          "tagsPath": "/docs/tags",
+          "path": "/obfuscator-io-metro-plugin/docs",
+          "tagsPath": "/obfuscator-io-metro-plugin/docs/tags",
           "editUrl": "https://github.com/whoami-shubham/obfuscator-io-metro-plugin/tree/main/packages/create-docusaurus/templates/shared/docs",
           "editUrlLocalized": "https://github.com/whoami-shubham/obfuscator-io-metro-plugin/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
@@ -27,7 +27,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docs/intro",
+              "permalink": "/obfuscator-io-metro-plugin/docs/intro",
               "draft": false,
               "editUrl": "https://github.com/whoami-shubham/obfuscator-io-metro-plugin/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
@@ -58,7 +58,7 @@
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
-      "blogTagsListPath": "/blog/tags",
+      "blogTagsListPath": "/obfuscator-io-metro-plugin/blog/tags",
       "blogTagsPaginated": []
     }
   },
@@ -66,12 +66,12 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/obfuscator-io-metro-plugin/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
-        "permalink": "/markdown-page",
+        "permalink": "/obfuscator-io-metro-plugin/markdown-page",
         "source": "@site/src/pages/markdown-page.md",
         "title": "Markdown page example",
         "description": "You don't need React to write simple standalone pages.",

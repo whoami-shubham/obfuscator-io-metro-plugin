@@ -1,27 +1,70 @@
 {
-  "/obfuscator-io-metro-plugin/markdown-page-f8e": {
-    "__comp": "1f391b9e",
+  "/obfuscator-io-metro-plugin/__docusaurus/debug-c28": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "f8ba4ff1"
+      "plugin": "plugin---obfuscator-io-metro-plugin-docusaurus-debugf-53-10d"
+    }
+  },
+  "/obfuscator-io-metro-plugin/__docusaurus/debug/config-204": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---obfuscator-io-metro-plugin-docusaurus-debugf-53-10d"
+    }
+  },
+  "/obfuscator-io-metro-plugin/__docusaurus/debug/content-44b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---obfuscator-io-metro-plugin-docusaurus-debugf-53-10d"
     },
-    "content": "393be207"
+    "allContent": "allContent---obfuscator-io-metro-plugin-docusaurus-debug-content-246-ff6"
+  },
+  "/obfuscator-io-metro-plugin/__docusaurus/debug/globalData-ffa": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---obfuscator-io-metro-plugin-docusaurus-debugf-53-10d"
+    }
+  },
+  "/obfuscator-io-metro-plugin/__docusaurus/debug/metadata-96e": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---obfuscator-io-metro-plugin-docusaurus-debugf-53-10d"
+    }
+  },
+  "/obfuscator-io-metro-plugin/__docusaurus/debug/registry-807": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---obfuscator-io-metro-plugin-docusaurus-debugf-53-10d"
+    }
+  },
+  "/obfuscator-io-metro-plugin/__docusaurus/debug/routes-136": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---obfuscator-io-metro-plugin-docusaurus-debugf-53-10d"
+    }
+  },
+  "/obfuscator-io-metro-plugin/markdown-page-f8e": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---obfuscator-io-metro-plugin-markdown-pagef-8-b-d11"
+    },
+    "content": "content---obfuscator-io-metro-plugin-markdown-page-393-7ff"
   },
   "/obfuscator-io-metro-plugin/docs-723": {
-    "__comp": "1be78505",
+    "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "7149e0fb"
+      "plugin": "plugin---obfuscator-io-metro-plugin-docs-714-daa"
     },
-    "versionMetadata": "935f2afb"
+    "versionMetadata": "versionMetadata---obfuscator-io-metro-plugin-docs-935-e17"
   },
   "/obfuscator-io-metro-plugin/docs/intro-f4a": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---obfuscator-io-metro-plugin-docs-intro-0-e-3-d44"
   },
   "/obfuscator-io-metro-plugin/-4da": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "f8ba4ff1"
+      "plugin": "plugin---obfuscator-io-metro-plugin-markdown-pagef-8-b-d11"
     },
-    "config": "5e9f5e1a"
+    "config": "config---obfuscator-io-metro-plugin-5-e-9-cb9"
   }
 }
