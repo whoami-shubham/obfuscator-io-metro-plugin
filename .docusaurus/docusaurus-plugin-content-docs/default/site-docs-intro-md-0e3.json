@@ -1,0 +1,19 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Intro",
+  "description": "Let's discover obfuscator-io-metro-plugin in less than 5 minutes.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "editUrl": "https://github.com/whoami-shubham/obfuscator-io-metro-plugin/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar"
+}

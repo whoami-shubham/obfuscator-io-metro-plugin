@@ -1,0 +1,30 @@
+on:
+  push:
+    branches: [feat/docs]
+  pull_request:
+    branches: [feat/docs]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: feat/docs
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build App
+        run: npm run build
+
+      - uses: Cecilapp/GitHub-Pages-deploy@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        with:
+          email: ${{ secrets.EMAIL }}
+          build_dir: build # optional
+          branch: gh-pages # optional
+          jekyll: no # optional
+          #commit_message: custom message # optional'
