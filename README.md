@@ -42,6 +42,7 @@ const jsoMetroPlugin = require("obfuscator-io-metro-plugin")(
   {
     runInDev: false /* optional */,
     logObfuscatedFiles: true /* optional generated files will be located at ./.jso */,
+    excludes: '**/*.assets.**' /* optional, A file names or globs which indicates files to exclude from obfuscation. */, 
   }
 );
 
