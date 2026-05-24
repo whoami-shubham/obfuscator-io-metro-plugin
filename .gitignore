@@ -63,3 +63,4 @@ buck-out/
 *.obfuscated.mock.js
 ios/assets/
 /bundle.*
+integration-rn-0841-newarch/
