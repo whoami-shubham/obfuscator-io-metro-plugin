@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "javascript-obfuscator"
   ],
   "dependencies": {
+    "acorn": "^8.16.0",
     "combine-source-map": "0.8.0",
     "commander": "2.20.3",
     "fs-extra": "8.1.0",
