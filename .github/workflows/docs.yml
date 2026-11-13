@@ -7,11 +7,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: feat/docs
+      - uses: actions/checkout@v4
 
       - name: Install dependencies
         run: npm install
@@ -19,12 +19,9 @@ jobs:
       - name: Build App
         run: npm run build
 
-      - uses: Cecilapp/GitHub-Pages-deploy@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      - name: Deploy to GitHub Pages
+        if: github.event_name == 'push'
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          email: ${{ secrets.EMAIL }}
-          build_dir: build # optional
-          branch: gh-pages # optional
-          jekyll: no # optional
-          #commit_message: custom message # optional'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
